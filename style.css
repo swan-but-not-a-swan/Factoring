@@ -1,0 +1,59 @@
+.scrollbar
+{
+    height:100%;
+    width:40vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:lightgreen;
+    overflow-x: hidden;
+    overflow-y:auto;
+    padding-top: 20px;
+    z-index:1;
+    border-style:outset;
+    max-width: 200px;
+}
+.scrollbar a
+{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding: 5px 10px;
+    font-size:1em;
+}
+.scrollbar p
+{
+    padding-left: 10px;
+    font: 20px Arial Sans-serif;
+    font-style: normal;
+    margin-top:10px;
+}
+.main
+{
+    margin-left:40vw;
+    padding-left: 20px;
+}
+.input
+{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+}
+.calculate
+{
+    display:inline; 
+    margin:20px 0px;
+}
+#mode
+{
+    width: 80px;
+    display:inline;
+}
+@media only screen and (min-width:500px)
+{
+    .main
+    {
+        margin-left: 200px;
+        padding-left: 20px
+    }
+}
