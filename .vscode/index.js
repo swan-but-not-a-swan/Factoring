@@ -19,7 +19,7 @@ function factor()
         third_c.value=0;
     }
 }
-function calculate(first,second,third)//first = 2, second = 5, third = -3
+function calculate(first,second,third)//first = 6, second = 3, third = 3
 {
     console.log("calculating")
     let number = first * third;
@@ -58,10 +58,6 @@ function calculate(first,second,third)//first = 2, second = 5, third = -3
                 document.getElementById("result").innerHTML="NoAns";
             }
         }
-        // if(!Number.isInteger(dividend))
-        // {
-        //     document.getElementById("result").innerHTML="NoAns";
-        // }
     }
 }
 function factoriser(first, i,dividend,third)
