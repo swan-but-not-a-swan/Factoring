@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebraic Factoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scrollbar">
+        <p>Navigation</p>
+        <a href="https://hopeful-tesla-5a5d56.netlify.app/" target="blank">Coordinates</a>
+        <a href="#" target="blank">Variations (coming soon)</a>
+        <a href=""></a>
+    </div>
+    <div class="main">
+        <h2>Trinomial Algebraic Factoring</h2>
+        <div class="input-field">
+            <div class="factor-input">
+            <label for="first">Factor </label>
+            <input type="text" name="first-one" id="first" class="input">
+            <label for="first">x^2 + </label>
+            <input type="text" name="second-one" id="second" class="input">
+            <label for="second">x + </label>
+            <input type="text" name="third-one" id="third" class ="input">
+        </div>
+            <button class="calculate" id="factor">Factorise</button>
+            <select name="mode" id="mode">
+                <option value="factorise">factorise</option>
+                <option value="distribute">distribute(coming soon)</option>
+            </select>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
